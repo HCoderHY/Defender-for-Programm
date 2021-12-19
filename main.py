@@ -41,7 +41,7 @@ class Ui_MainWindow(object):
     	self.pushButton.clicked.connect(self.open)
     def open(self):
     	if self.lineEdit.text() == "Your password": # Add your password
-    		os.system("start programm.exe") # Add programm
+    		os.system("start programm.exe") # Add a programm or link to programm 
     		exit()
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
